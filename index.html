@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags for Responsiveness & Charset -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CodeNova Solutions - Professional Software Development, Custom Web Development, Python Automation, Java, C, C++ Programming & API Integration Services">
+    <meta name="keywords" content="software development, web development, Python programming, Java developer, C++ programming, API integration, custom software, debugging, database development">
+    <meta name="author" content="CodeNova Solutions">
+    <meta name="theme-color" content="#00d4ff">
+    
+    <!-- Open Graph Tags for Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://codenova.solutions">
+    <meta property="og:title" content="CodeNova Solutions - Professional Software Development Services">
+    <meta property="og:description" content="Expert software development, web development, and programming services for businesses">
+    <meta property="og:image" content="https://codenova.solutions/og-image.png">
+    <meta property="og:site_name" content="CodeNova Solutions">
+    
+    <!-- Twitter Card Tags -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://codenova.solutions">
+    <meta property="twitter:title" content="CodeNova Solutions - Professional Software Development">
+    <meta property="twitter:description" content="Expert software development and programming solutions">
+    <meta property="twitter:image" content="https://codenova.solutions/og-image.png">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "CodeNova Solutions",
+        "description": "Professional Software Development & Programming Solutions",
+        "url": "https://codenova.solutions",
+        "telephone": "+91 75399 00984",
+        "email": "sales.codenova@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "IN"
+        },
+        "sameAs": ["https://telegram.me/CodeNova"],
+        "priceRange": "$$"
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%2300d4ff' width='100' height='100'/><text x='50' y='60' font-size='60' font-weight='bold' text-anchor='middle' fill='%230a0e27'>CN</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <title>CodeNova Solutions - Professional Software Development & Programming Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader" id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <span class="brand-icon">◆</span>
+                <span class="brand-text">CodeNova</span>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#why-us" class="nav-link">Why Us</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Transforming Ideas Into Code</span>
+            </div>
+            
+            <h1 class="hero-title">
+                <span class="typing-text" id="typingText"></span>
+                <span class="typing-cursor"></span>
+            </h1>
+            
+            <p class="hero-subtitle">
+                We build robust, scalable software solutions tailored to your business needs. From custom development to API integration, we deliver excellence.
+            </p>
+            
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Start Your Project</a>
+                <a href="#services" class="btn btn-secondary">Explore Services</a>
+            </div>
+        </div>
+        
+        <div class="hero-visual">
+            <div class="floating-card card-1">
+                <div class="card-icon">{'</div>
+                <p>Custom Code</p>
+            </div>
+            <div class="floating-card card-2">
+                <div class="card-icon">→</div>
+                <p>API Integration</p>
+            </div>
+            <div class="floating-card card-3">
+                <div class="card-icon">◆</div>
+                <p>Database Design</p>
+            </div>
+        </div>
+        
+        <div class="hero-gradient"></div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-number" data-target="500">0</div>
+                <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="98">0</div>
+                <div class="stat-label">Client Satisfaction</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="8">0</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="15">0</div>
+                <div class="stat-label">Tech Stack</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-header">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Comprehensive software development solutions for every need</p>
+        </div>
+        
+        <div class="services-grid">
+            <!-- Service Card 1 -->
+            <div class="service-card glass-card reveal-item">
+                <div class="service-icon">
+                    <span class="icon-symbol">◆</span>
+                </div>
+                <h3>Custom Software Development</h3>
+                <p>Tailored solutions built from scratch to match your exact business requirements and scale with your growth.</p>
+                <ul class="service-features">
+                    <li>✓ End-to-end development</li>
+                    <li>✓ Scalable architecture</li>
+                    <li>✓ Performance optimized</li>
+                </ul>
+            </div>
+            
+            <!-- Service Card 2 -->
+            <div class="service-card glass-card reveal-item">
+                <div class="service-icon">
+                    <span class="icon-symbol">⟐</span>
+                </div>
+                <h3>Web Development</h3>
+                <p>Modern, responsive websites that engage users and drive business results. Desktop to mobile perfect.</p>
+                <ul class="service-features">
+                    <li>✓ Responsive design</li>
+                    <li>✓ SEO optimized</li>
+                    <li>✓ High performance</li>
+                </ul>
+            </div>
+            
+            <!-- Service Card 3 -->
+            <div class="service-card glass-card reveal-item">
+                <div class="service-icon">
+                    <span class="icon-symbol">⚡</span>
+                </div>
+                <h3>Python Automation</h3>
+                <p>Automate repetitive tasks and streamline workflows with powerful Python scripts and applications.</p>
+                <ul class="service-features">
+                    <li>✓ Task automation</li>
+                    <li>✓ Data processing</li>
+                    <li>✓ System integration</li>
+                </ul>
+            </div>
+            
+            <!-- Service Card 4 -->
+            <div class="service-card glass-card reveal-item">
+                <div class="service-icon">
+                    <span class="icon-symbol">{ }</span>
+                </div>
+                <h3>Programming Solutions</h3>
+                <p>Expert development in Java, C, C++, and more. Clean code, professional standards, robust solutions.</p>
+                <ul class="service-features">
+                    <li>✓ Multiple languages</li>
+                    <li>✓ OOP principles</li>
+                    <li>✓ Best practices</li>
+                </ul>
+            </div>
+            
+            <!-- Service Card 5 -->
+            <div class="service-card glass-card reveal-item">
+                <div class="service-icon">
+                    <span class="icon-symbol">↔</span>
+                </div>
+                <h3>API Integration</h3>
+                <p>Seamless integration of third-party APIs and services to extend your application functionality.</p>
+                <ul class="service-features">
+                    <li>✓ RESTful APIs</li>
+                    <li>✓ OAuth authentication</li>
+                    <li>✓ Payment gateways</li>
+                </ul>
+            </div>
+            
+            <!-- Service Card 6 -->
+            <div class="service-card glass-card reveal-item">
+                <div class="service-icon">
+                    <span class="icon-symbol">🐞</span>
+                </div>
+                <h3>Debugging & Support</h3>
+                <p>Fix bugs, optimize performance, and provide ongoing technical support for your applications.</p>
+                <ul class="service-features">
+                    <li>✓ Code review</li>
+                    <li>✓ Performance tuning</li>
+                    <li>✓ 24/7 support</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="technologies">
+        <div class="section-header">
+            <h2 class="section-title">Technologies We Master</h2>
+            <p class="section-subtitle">Built with industry-leading tools and frameworks</p>
+        </div>
+        
+        <div class="tech-grid">
+            <div class="tech-item glass-card reveal-item">
+                <div class="tech-logo">HTML</div>
+                <p>Semantic Markup</p>
+            </div>
+            <div class="tech-item glass-card reveal-item">
+                <div class="tech-logo">CSS</div>
+                <p>Styling & Animations</p>
+            </div>
+            <div class="tech-item glass-card reveal-item">
+                <div class="tech-logo">JS</div>
+                <p>Interactive Features</p>
+            </div>
+            <div class="tech-item glass-card reveal-item">
+                <div class="tech-logo">Python</div>
+                <p>Automation & AI</p>
+            </div>
+            <div class="tech-item glass-card reveal-item">
+                <div class="tech-logo">Java</div>
+                <p>Enterprise Apps</p>
+            </div>
+            <div class="tech-item glass-card reveal-item">
+                <div class="tech-logo">C/C++</div>
+                <p>Systems Programming</p>
+            </div>
+            <div class="tech-item glass-card reveal-item">
+                <div class="tech-logo">PHP</div>
+                <p>Backend Development</p>
+            </div>
+            <div class="tech-item glass-card reveal-item">
+                <div class="tech-logo">MySQL</div>
+                <p>Database Design</p>
+            </div>
+            <div class="tech-item glass-card reveal-item">
+                <div class="tech-logo">SQLite</div>
+                <p>Embedded Databases</p>
+            </div>
+            <div class="tech-item glass-card reveal-item">
+                <div class="tech-logo">Git</div>
+                <p>Version Control</p>
+            </div>
+            <div class="tech-item glass-card reveal-item">
+                <div class="tech-logo">GitHub</div>
+                <p>Collaboration</p>
+            </div>
+            <div class="tech-item glass-card reveal-item">
+                <div class="tech-logo">API</div>
+                <p>Integration</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Process Section -->
+    <section class="process">
+        <div class="section-header">
+            <h2 class="section-title">Our Development Process</h2>
+            <p class="section-subtitle">Proven methodology for successful project delivery</p>
+        </div>
+        
+        <div class="process-timeline">
+            <div class="process-step reveal-item">
+                <div class="step-number">01</div>
+                <h3>Discovery & Planning</h3>
+                <p>We deeply understand your business goals, challenges, and vision to create a comprehensive project roadmap.</p>
+                <div class="step-icon">▸</div>
+            </div>
+            
+            <div class="process-step reveal-item">
+                <div class="step-number">02</div>
+                <h3>Design & Architecture</h3>
+                <p>Expert system design, database schema planning, and technical architecture that scales with your needs.</p>
+                <div class="step-icon">▸</div>
+            </div>
+            
+            <div class="process-step reveal-item">
+                <div class="step-number">03</div>
+                <h3>Development</h3>
+                <p>Professional coding with clean architecture, best practices, and rigorous code standards throughout.</p>
+                <div class="step-icon">▸</div>
+            </div>
+            
+            <div class="process-step reveal-item">
+                <div class="step-number">04</div>
+                <h3>Testing & QA</h3>
+                <p>Comprehensive testing, debugging, and quality assurance to ensure reliability and performance.</p>
+                <div class="step-icon">▸</div>
+            </div>
+            
+            <div class="process-step reveal-item">
+                <div class="step-number">05</div>
+                <h3>Deployment</h3>
+                <p>Smooth deployment with minimal downtime, configuration management, and live monitoring setup.</p>
+                <div class="step-icon">▸</div>
+            </div>
+            
+            <div class="process-step reveal-item">
+                <div class="step-number">06</div>
+                <h3>Support & Maintenance</h3>
+                <p>Ongoing support, updates, security patches, and performance optimization for long-term success.</p>
+                <div class="step-icon">✓</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us" id="why-us">
+        <div class="section-header">
+            <h2 class="section-title">Why Choose CodeNova</h2>
+            <p class="section-subtitle">What sets us apart from the competition</p>
+        </div>
+        
+        <div class="why-us-grid">
+            <div class="why-item glass-card reveal-item">
+                <div class="why-icon">◆</div>
+                <h3>Expert Team</h3>
+                <p>Highly skilled developers with 8+ years of experience in building production-grade applications.</p>
+            </div>
+            
+            <div class="why-item glass-card reveal-item">
+                <div class="why-icon">⟐</div>
+                <h3>Quality First</h3>
+                <p>We never compromise on code quality. Clean, maintainable, and well-documented solutions always.</p>
+            </div>
+            
+            <div class="why-item glass-card reveal-item">
+                <div class="why-icon">⚡</div>
+                <h3>Fast Delivery</h3>
+                <p>Efficient processes and agile methodology ensure your projects are delivered on time, every time.</p>
+            </div>
+            
+            <div class="why-item glass-card reveal-item">
+                <div class="why-icon">🔒</div>
+                <h3>Security Focused</h3>
+                <p>Security is built-in, not an afterthought. We follow best practices for data protection and encryption.</p>
+            </div>
+            
+            <div class="why-item glass-card reveal-item">
+                <div class="why-icon">💰</div>
+                <h3>Affordable Pricing</h3>
+                <p>Transparent, competitive pricing with flexible payment options to fit any budget size.</p>
+            </div>
+            
+            <div class="why-item glass-card reveal-item">
+                <div class="why-icon">🤝</div>
+                <h3>24/7 Support</h3>
+                <p>Dedicated support team available round-the-clock to address your concerns and issues promptly.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="section-header">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <p class="section-subtitle">Real feedback from satisfied clients</p>
+        </div>
+        
+        <div class="testimonials-grid">
+            <div class="testimonial-card glass-card reveal-item">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"CodeNova delivered exactly what we needed. Professional, efficient, and the code quality is exceptional. Highly recommended!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">RS</div>
+                    <div class="author-info">
+                        <h4>Rajesh Singh</h4>
+                        <p>Startup Founder</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card glass-card reveal-item">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"Outstanding API integration work. The team understood our requirements perfectly and delivered on time with zero issues."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">PK</div>
+                    <div class="author-info">
+                        <h4>Priya Kumari</h4>
+                        <p>Product Manager</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card glass-card reveal-item">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"From website development to database optimization, CodeNova handled everything professionally. Exceptional service!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">AV</div>
+                    <div class="author-info">
+                        <h4>Arun Verma</h4>
+                        <p>Business Owner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="section-header">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">Get answers to common questions about our services</p>
+        </div>
+        
+        <div class="faq-container">
+            <div class="faq-item glass-card reveal-item">
+                <div class="faq-question">
+                    <span>What is your typical project timeline?</span>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Project timelines vary based on complexity and scope. Small projects typically take 1-2 weeks, medium projects 3-8 weeks, and larger enterprise solutions 2-6 months. We'll provide accurate estimates after understanding your requirements.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item glass-card reveal-item">
+                <div class="faq-question">
+                    <span>Do you offer post-deployment support?</span>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutely! We provide comprehensive post-deployment support including bug fixes, performance optimization, security updates, and feature enhancements. Support packages are customizable based on your needs.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item glass-card reveal-item">
+                <div class="faq-question">
+                    <span>Can you work on existing projects?</span>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, we specialize in working with existing codebases. Whether you need debugging, performance optimization, feature additions, or complete refactoring, our team can handle it efficiently.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item glass-card reveal-item">
+                <div class="faq-question">
+                    <span>What is your payment structure?</span>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Payments are shared securely through official payment links after project confirmation. We offer flexible payment schedules: advance deposit for project start, milestone-based payments during development, and final payment upon completion.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item glass-card reveal-item">
+                <div class="faq-question">
+                    <span>Do you sign NDAs?</span>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, we take confidentiality seriously and are happy to sign NDAs before discussing your project. Your intellectual property and business information are always protected.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item glass-card reveal-item">
+                <div class="faq-question">
+                    <span>Can you help with programming concepts and tutoring?</span>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! We offer programming consultation and tutoring services. Whether you're learning a new language or need guidance on best practices, our experts can help you develop your skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Ready to start your next project? Contact us today</p>
+        </div>
+        
+        <div class="contact-wrapper">
+            <!-- Contact Form -->
+            <div class="contact-form-box glass-card">
+                <h3>Send us a message</h3>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required id="formName">
+                        <span class="form-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required id="formEmail">
+                        <span class="form-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" id="formPhone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" placeholder="Project Title" required id="formSubject">
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea placeholder="Describe your project or question..." rows="5" required id="formMessage"></textarea>
+                        <span class="form-error"></span>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+                <div class="form-success" id="formSuccess" style="display: none;">
+                    <p>✓ Message received! We'll get back to you within 24 hours.</p>
+                </div>
+            </div>
+            
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="info-card glass-card reveal-item">
+                    <h4>Email</h4>
+                    <p>sales.codenova@gmail.com</p>
+                    <button class="copy-btn" data-text="sales.codenova@gmail.com">Copy Email</button>
+                </div>
+                
+                <div class="info-card glass-card reveal-item">
+                    <h4>Telegram</h4>
+                    <p>@CodeNova</p>
+                    <a href="https://t.me/CodeNova" target="_blank" class="link-btn">Open Chat</a>
+                </div>
+                
+                <div class="info-card glass-card reveal-item">
+                    <h4>WhatsApp</h4>
+                    <p>+91 75399 00984</p>
+                    <a href="https://wa.me/917539900984" target="_blank" class="link-btn">Start Chat</a>
+                </div>
+                
+                <div class="info-card glass-card reveal-item">
+                    <h4>Business Hours</h4>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM<br>
+                    Saturday: 10:00 AM - 4:00 PM<br>
+                    Sunday: Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>CodeNova Solutions</h4>
+                <p>Professional Software Development & Programming Solutions</p>
+                <div class="social-links">
+                    <a href="https://t.me/CodeNova" target="_blank" class="social-icon" title="Telegram">✈</a>
+                    <a href="https://wa.me/917539900984" target="_blank" class="social-icon" title="WhatsApp">◆</a>
+                    <a href="mailto:sales.codenova@gmail.com" class="social-icon" title="Email">✉</a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h5>Services</h5>
+                <ul>
+                    <li><a href="#services">Custom Development</a></li>
+                    <li><a href="#services">Web Development</a></li>
+                    <li><a href="#services">Python Automation</a></li>
+                    <li><a href="#services">API Integration</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h5>Company</h5>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#why-us">Why Choose Us</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h5>Legal</h5>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="refund.html">Refund Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 CodeNova Solutions. All rights reserved. | Crafted with ◆ for quality.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" title="Back to top">↑</button>
+
+    <!-- About Section (Hidden, for reference) -->
+    <section class="about" id="about" style="display: none; padding: 5rem 2rem; text-align: center;">
+        <div class="section-header">
+            <h2 class="section-title">About CodeNova Solutions</h2>
+            <p class="section-subtitle">Delivering excellence in software development since 2016</p>
+        </div>
+        <p style="max-width: 800px; margin: 2rem auto; line-height: 1.8;">
+            CodeNova Solutions is a professional software development company founded with a mission to transform business ideas into powerful digital solutions. With over 8 years of experience, we've successfully delivered 500+ projects for startups, SMEs, and enterprises across various industries.
+            <br><br>
+            Our team of expert developers, architects, and consultants work collaboratively with clients to understand their unique needs and deliver solutions that exceed expectations. We maintain the highest standards of code quality, security, and professionalism in every project we undertake.
+        </p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
